@@ -9,7 +9,7 @@ class MyThread extends Thread {
 
     public void run() {
         System.out.println("Hello you, starting!!! [Thread: " + name + " ]");
-        // Demorar, esperar, dormir ...
+        // Do some work ...
         System.out.println("Hello you, this is the end!!! [Thread: " + name + " ]");
     }
 }
