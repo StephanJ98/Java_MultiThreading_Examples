@@ -1,4 +1,4 @@
-# :rocket: Examples of Java MultiThreading
+# :rocket: Examples of Java MultiThreading extending Thread Class
 
 :pencil: Basic example of MultiThreading in Java, actually only with the extending Thread Class method.
 
