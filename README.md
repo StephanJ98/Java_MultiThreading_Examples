@@ -41,7 +41,10 @@ if (args.length > 1) {
 for (int i = 0; i <= limit; i++) {
     threads.add(new MyThread(i));
     threads.get(i).start();
-    threads.get(i).join();
+    //threads.get(i).join(); We finish the execution of a thread before starting other.
+}
+for (MyThread myThread : threads) {
+    myThread.join();
 }
 ```
 
